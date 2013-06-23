@@ -1,7 +1,7 @@
 DesignPatterns
 ==============
 
-A simplistic implementation of some well-known design pattern in C#.
+A simplistic implementation of some well-known design patterns in C#.
 
 ## Content
 
@@ -13,9 +13,7 @@ This repository contains the following design patterns:
  - Visitor
 - Creational
  - Factory
- - Singleton
-  - Simple implementation (thread-safe)
-  - Lazy implementation (thread-safe)
+ - Singleton (Simple & Lazy, fully thread-safe)
 - Structural
  - Decorator
  - Wrapper (aka Adapter)
@@ -27,4 +25,4 @@ This repository contains the following design patterns:
 
 ## License
 
-HadesMem is licensed under the MIT License (as of v2.0.0).
+DesignPatterns code is licensed under the MIT License (as of v2.0.0).
