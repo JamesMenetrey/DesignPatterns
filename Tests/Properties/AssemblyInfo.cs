@@ -1,4 +1,11 @@
-﻿using System.Reflection;
+﻿/*
+* DesignPatterns
+* https://github.com/ZenLulz/DesignPatterns
+*
+* Copyright 2013 ZenLulz ~ Jämes Ménétrey
+* Released under the MIT license
+*/
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 

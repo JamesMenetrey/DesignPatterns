@@ -1,4 +1,11 @@
-﻿using System.Linq;
+﻿/*
+* DesignPatterns
+* https://github.com/ZenLulz/DesignPatterns
+*
+* Copyright 2013 ZenLulz ~ Jämes Ménétrey
+* Released under the MIT license
+*/
+using System.Linq;
 using DesignPatterns.Behavioral.Visitor;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 

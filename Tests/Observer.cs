@@ -1,14 +1,21 @@
-﻿using System;
-using DesignPatterns.Behavioral.Observer;
+﻿/*
+* DesignPatterns
+* https://github.com/ZenLulz/DesignPatterns
+*
+* Copyright 2013 ZenLulz ~ Jämes Ménétrey
+* Released under the MIT license
+*/
+using DesignPatterns.Behavioral.Observer.WithEvent;
+using DesignPatterns.Behavioral.Observer.WithInterfaces;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Tests
 {
     [TestClass]
-    public class Observer
+    public class ObserverTests
     {
         [TestMethod]
-        public void Tests()
+        public void WithIntrerfaces()
         {
             var observable = new DoorTracker();
 
@@ -25,6 +32,22 @@ namespace Tests
             door.IsOpened = false;
             observable.Notify(door);
             observable.EndTracking();
+        }
+
+        [TestMethod]
+        public void WithEvent()
+        {
+            // Create our objects
+            var observable = new Observable();
+            var observer = new Observer();
+
+            // Subscribe
+            observer.Observe(observable);
+
+            // Send a message
+            observable.Write("Youhou !");
+
+            // The message is now printed in the console
         }
     }
 }

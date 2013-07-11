@@ -9,7 +9,7 @@ This repository contains the following design patterns:
 
 - Behavioral
  - Chain of responsibility
- - Observer (using the interfaces [IObserver<T>](http://msdn.microsoft.com/en-us/library/dd783449.aspx) and [IObservable<T>](http://msdn.microsoft.com/en-us/library/dd990377.aspx) from the .NET Framework)
+ - Observer (using the interfaces [IObserver<T>](http://msdn.microsoft.com/en-us/library/dd783449.aspx) and [IObservable<T>](http://msdn.microsoft.com/en-us/library/dd990377.aspx), using delegates and events)
  - Visitor
 - Creational
  - Factory

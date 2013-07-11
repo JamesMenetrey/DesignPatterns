@@ -63,6 +63,11 @@
       <Name>DesignPatterns</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\DesignPatterns\DesignPatterns.licenseheader">
+      <Link>DesignPatterns.licenseheader</Link>
+    </None>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

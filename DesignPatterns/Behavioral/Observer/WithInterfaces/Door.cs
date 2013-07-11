@@ -6,7 +6,7 @@
 * Released under the MIT license
 */
 
-namespace DesignPatterns.Behavioral.Observer
+namespace DesignPatterns.Behavioral.Observer.WithInterfaces
 {
     /// <summary>
     /// Define a door.

@@ -45,9 +45,14 @@
     <Compile Include="Behavioral\ChainOfResponsibility\Handlers\ISpamHandler.cs" />
     <Compile Include="Behavioral\ChainOfResponsibility\Handlers\WordHandler.cs" />
     <Compile Include="Behavioral\ChainOfResponsibility\SpamBlocker.cs" />
-    <Compile Include="Behavioral\Observer\Door.cs" />
-    <Compile Include="Behavioral\Observer\DoorTracker.cs" />
-    <Compile Include="Behavioral\Observer\DoorReporter.cs" />
+    <Compile Include="Behavioral\Observer\WithEvent\IMessageObservable.cs" />
+    <Compile Include="Behavioral\Observer\WithEvent\IMessageObserver.cs" />
+    <Compile Include="Behavioral\Observer\WithEvent\MessageEventArgs.cs" />
+    <Compile Include="Behavioral\Observer\WithEvent\Observable.cs" />
+    <Compile Include="Behavioral\Observer\WithEvent\Observer.cs" />
+    <Compile Include="Behavioral\Observer\WithInterfaces\Door.cs" />
+    <Compile Include="Behavioral\Observer\WithInterfaces\DoorTracker.cs" />
+    <Compile Include="Behavioral\Observer\WithInterfaces\DoorReporter.cs" />
     <Compile Include="Behavioral\Visitor\IWordsBrowsable.cs" />
     <Compile Include="Behavioral\Visitor\IWordsVisitor.cs" />
     <Compile Include="Behavioral\Visitor\LikeSearcher.cs" />
@@ -74,6 +79,7 @@
   <ItemGroup>
     <None Include="DesignPatterns.licenseheader" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

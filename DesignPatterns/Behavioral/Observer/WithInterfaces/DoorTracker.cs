@@ -9,11 +9,12 @@
 using System;
 using System.Collections.Generic;
 
-namespace DesignPatterns.Behavioral.Observer
+namespace DesignPatterns.Behavioral.Observer.WithInterfaces
 {
     /// <summary>
     /// This is the observable implementation.
     /// The observer pattern defines a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.
+    /// This example uses the interfaces <see cref="IObservable{T}"/> and <see cref="IObserver{T}"/> provided by .NET Framework.
     /// </summary>
     public class DoorTracker : IObservable<Door>
     {

@@ -1,4 +1,11 @@
-﻿using DesignPatterns.Behavioral.ChainOfResponsibility;
+﻿/*
+* DesignPatterns
+* https://github.com/ZenLulz/DesignPatterns
+*
+* Copyright 2013 ZenLulz ~ Jämes Ménétrey
+* Released under the MIT license
+*/
+using DesignPatterns.Behavioral.ChainOfResponsibility;
 using DesignPatterns.Behavioral.ChainOfResponsibility.Handlers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 

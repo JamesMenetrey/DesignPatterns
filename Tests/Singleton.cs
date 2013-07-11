@@ -1,4 +1,11 @@
-﻿using DesignPatterns.Creational.Singleton;
+﻿/*
+* DesignPatterns
+* https://github.com/ZenLulz/DesignPatterns
+*
+* Copyright 2013 ZenLulz ~ Jämes Ménétrey
+* Released under the MIT license
+*/
+using DesignPatterns.Creational.Singleton;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Tests
